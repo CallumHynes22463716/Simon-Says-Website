@@ -1,0 +1,95 @@
+.body
+{
+    background-color: #1c1c1c;
+}
+.circle
+{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:5px solid #1c1c1c;
+    display: inline-block;
+}
+
+.circleRed{
+    
+    background-color: red;
+    top: 90px;
+    left: 190px;
+}
+.circleBlue
+{
+    background-color: blue;
+    top: 90px;
+    left: 330px;
+}
+
+.circleYellow
+{
+    background-color: yellow;
+    top: 250px;
+    left: 190px;
+}
+
+.circleGreen
+{
+    background-color: green;
+    top: 250px;
+    left: 330px;
+}
+.circleBlack
+{
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    display:inline-block;
+    top:150px;
+    left: 240px;
+}
+
+.button
+{
+    position: absolute;
+    top: 60px;
+    left:52px;
+    font-family: "Orbitron", sans-serif;
+}
+.highscore
+{
+    position:relative;
+    text-align: center;
+    width: 25px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    top: 60px;
+    left: 17px;
+    font-family: "Orbitron", sans-serif;
+}
+.currentscore
+{
+    position:relative;
+    text-align: center;
+    width: 25px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    top: 60px;
+    left: 75px;
+    font-family: "Orbitron", sans-serif;
+}
+.gamestatus
+{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    top: 100px;
+    left: 70px;
+
+
+}
